@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.TodoCreate{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.TodoInput{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+.CreateButton{
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: gold;
+    padding: 6px 10px;
+    border-radius: 2px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+.listİcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 12px 0px;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+.İcons{
+    font-size: 25px;
+    cursor: pointer;
+}
